@@ -1,6 +1,6 @@
 {
 	"name": "@bkhurram/ui",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "ui components",
 	"author": "Khurram Bashir",
 	"main": "dist/cjs/index.js",

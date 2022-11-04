@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FunctionComponent } from 'react';
 import "./Button.css";
 
 interface ButtonProps {
@@ -6,8 +6,7 @@ interface ButtonProps {
 	children: React.ReactNode
 }
 
-const Button = ({ color, children, ...rest }: ButtonProps) => {
-
+const Button: FunctionComponent<ButtonProps> = ({ color = 'primary', children, ...rest }) => {
 	return (
 		<button className={`btn btn-${color}`} {...rest}>{children}</button>
 	)

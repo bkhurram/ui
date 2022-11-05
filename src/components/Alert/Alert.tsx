@@ -1,4 +1,5 @@
 import React, { FunctionComponent } from 'react'
+import './Alert.css';
 
 type AlertProps = {
 	color: 'primary' | 'secondary';
